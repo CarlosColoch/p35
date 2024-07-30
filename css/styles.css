@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content:first baseline;
+    flex-wrap:wrap-reverse; 
+    background: #4ba600;
+
+}
+
+input#myText {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: rgb(212, 211, 210);
+  font-size: .9rem;
+
+}
+
+
+abbr, code {
+    color: burlywood;
+  }
+
+  
+  button:hover{
+    color: blue;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  
+  li {
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+  
+  div#chatbox {
+    border-style: inset;
+    background: cornflowerblue;
+  }
+  
+  ul#chat-salida {
+    align-items: center;
+  }
+
